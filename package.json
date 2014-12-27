@@ -1,7 +1,7 @@
 {
   "name": "pwny",
   "description": "Easy middleware configuration for Express",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Anthony Smith <@anthonator>",
   "license": "MIT",
   "main": "lib/pwny.js",
