@@ -4,7 +4,7 @@ var assert = require('assert'),
 
 describe('run all configs', function() {
 
-  var expressEnv = expressSetup({ configPath: '../test/config/initializers' }, before, after);
+  var expressEnv = expressSetup({ configPath: './test/config/initializers' }, before, after);
 
   it('app.get(\'a\') should return a numerical value', function() {
     expect(expressEnv.app.get('a')).to.be.a('number');
