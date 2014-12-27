@@ -1,0 +1,25 @@
+{
+  "name": "pwny",
+  "description": "Easy middleware configuration for Express",
+  "version": "0.0.0",
+  "author": "Anthony Smith <@anthonator>",
+  "license": "MIT",
+  "main": "lib/pwny.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonator/pwny.git"
+  },
+  "dependencies": {
+    "lodash": "~2.4.0",
+    "rc": "~0.5.0",
+    "require-dir": "~0.1.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "express": "~4.10.0",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require test/init.js"
+  }
+}
