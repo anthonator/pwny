@@ -95,9 +95,11 @@ pwny(app, { order: ['morgan'] }); // will not load bodyParser
 
 You can also configure Pwny by adding a JSON ```.pwnyrc``` file to your app's root directory.
 
+**.pwnyrc**
+
 ```json
 {
-  "config": "config/middleware",
+  "configPath": "config/middleware",
   "order": ["morgan", "bodyParser"]
 }
 ```
