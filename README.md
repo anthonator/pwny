@@ -2,7 +2,15 @@
 
 [![Build Status](https://travis-ci.org/anthonator/pwny.svg?branch=master)](https://travis-ci.org/anthonator/pwny)
 
-Pwny (pronounced pony) makes configuring your Express app modular and maintainable.
+Pwny (pronounced pony) makes configuring your Express apps modular and maintainable.
+
+## Installation
+
+```bash
+$ npm install pwny
+```
+
+## Using pwny
 
 Rather than this moderate mess:
 
@@ -63,8 +71,27 @@ module.exports = require(app, config) {
 
 As you can see, Pwny allows you to keep your Express configuration sparkly clean and logically separated.
 
-## Installation
+## Configuration
 
-```bash
-$ npm install pwny
+By default Pwny will load all files located in ```config/initializers```. You can modify where Pwny looks by passing a path to the ```configPath``` option.
+
+```js
+pwny(app, { configPath: 'config/middleware' });
+```
+
+Sometimes order matters. To specify an order in which your config files load you can pass in an ```order``` array.
+
+```js
+pwny(app, { order: ['morgan', 'bodyParser'] });
+```
+
+### .pwnyrc
+
+You can also configure Pwny by adding a JSON ```.pwnyrc``` file to your app's root directory.
+
+```json
+{
+  "config": "config/middleware",
+  "order": ["morgan", "bodyParser"]
+}
 ```
