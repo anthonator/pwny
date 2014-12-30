@@ -85,6 +85,12 @@ Sometimes order matters. To specify an order in which your config files load you
 pwny(app, { order: ['morgan', 'bodyParser'] });
 ```
 
+Note that by specifying an order Pwny will only load specified files.
+
+```js
+pwny(app, { order: ['morgan'] }); // will not load bodyParser
+```
+
 ### .pwnyrc
 
 You can also configure Pwny by adding a JSON ```.pwnyrc``` file to your app's root directory.
