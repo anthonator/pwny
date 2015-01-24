@@ -51,7 +51,7 @@ app.listen(process.env.PORT || 1337);
 ```js
 var bodyParser = require('body-parser');
 
-module.exports = require(app, config) {
+module.exports = function(app, config) {
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: false }));
 };
@@ -62,7 +62,7 @@ module.exports = require(app, config) {
 ```js
 var morgan = require('morgan')
 
-module.exports = require(app, config) {
+module.exports = function(app, config) {
   morgan.token('type', function(req, res){ req.headers['content-type']; });
 
   app.use(morgan('dev'));
