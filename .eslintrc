@@ -1,0 +1,6 @@
+env:
+  node: true
+
+rules:
+  quotes: [2, "single"]
+  no-multi-spaces: 0
