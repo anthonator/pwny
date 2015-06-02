@@ -1,7 +1,7 @@
 {
   "name": "pwny",
-  "description": "Easy middleware configuration for Express",
-  "version": "0.2.0",
+  "description": "Module loader for Express",
+  "version": "0.2.1",
   "author": "Anthony Smith <@anthonator>",
   "license": "MIT",
   "main": "lib/pwny.js",
@@ -10,13 +10,13 @@
     "url": "https://github.com/anthonator/pwny.git"
   },
   "dependencies": {
-    "lodash": "~2.4.0",
-    "rc": "~0.5.0",
-    "require-dir": "~0.1.0"
+    "object-assign": "~2.0.0",
+    "rc": "~1.0.0",
+    "require-dir": "~0.3.0"
   },
   "devDependencies": {
     "chai": "*",
-    "express": "~4.10.0",
+    "express": "^4.10.0",
     "mocha": "*"
   },
   "scripts": {
