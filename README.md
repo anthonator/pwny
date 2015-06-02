@@ -73,7 +73,7 @@ As you can see, Pwny allows you to keep your Express modules sparkly clean and l
 
 ## Configuration
 
-By default Pwny will load all files located in ```config/initializers```. You can modify where Pwny looks by passing a path to the ```configPath``` option.
+You can tell Pwny where to look by passing a path to the ```configPath``` option.
 
 ```js
 pwny(app, { configPath: 'config/middleware' });
