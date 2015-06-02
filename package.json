@@ -1,7 +1,7 @@
 {
   "name": "pwny",
   "description": "Module loader for Express",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "author": "Anthony Smith <@anthonator>",
   "license": "MIT",
   "main": "lib/pwny.js",
