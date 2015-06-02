@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/anthonator/pwny.svg?branch=master)](https://travis-ci.org/anthonator/pwny)
 
-Pwny (pronounced pony) makes configuring your Express apps modular and maintainable.
+Pwny (pronounced pony) helps makes your Express apps modular and maintainable.
 
 ## Installation
 
@@ -69,7 +69,7 @@ module.exports = function(app, config) {
 };
 ```
 
-As you can see, Pwny allows you to keep your Express configuration sparkly clean and logically separated.
+As you can see, Pwny allows you to keep your Express modules sparkly clean and logically separated.
 
 ## Configuration
 
