@@ -1,6 +1,11 @@
-var assert = require('assert'),
-    chai   = require('chai'),
-    expect = chai.expect;
+'use strict';
+
+require('assert');
+
+var chai   = require('chai');
+
+
+var expect = chai.expect;
 
 describe('run all configs', function() {
 

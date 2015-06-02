@@ -1,4 +1,6 @@
-module.exports = function(app, config) {
+'use strict';
+
+module.exports = function(app) {
   var counter = app.get('counter') || 0;
 
   counter += 1;

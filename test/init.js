@@ -1,3 +1,5 @@
+'use strict';
+
 var expressApp = require('./app');
 
 global.expressSetup = function(o, before, after) {
