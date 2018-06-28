@@ -1,7 +1,7 @@
 {
   "name": "pwny",
   "description": "Module loader for Express",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Anthony Smith <@anthonator>",
   "license": "MIT",
   "main": "lib/pwny.js",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "object-assign": "~2.0.0",
-    "rc": "~1.0.0",
+    "rc": "~1.2.0",
     "require-dir": "~0.3.0"
   },
   "devDependencies": {
